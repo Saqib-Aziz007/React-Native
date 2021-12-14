@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606119832468",
+    "project_id": "socialauth-19fdc",
+    "storage_bucket": "socialauth-19fdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606119832468:android:6330b0309ebf239b4cfd81",
+        "android_client_info": {
+          "package_name": "com.socialauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606119832468-nb1d5650bs0d382l7mm59iu6t4euc3ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK6F1VdqgAVPSV4FHoAbMzKO8d2xY5Tac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606119832468-nb1d5650bs0d382l7mm59iu6t4euc3ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

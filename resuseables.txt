@@ -1,0 +1,34 @@
+----------------------------------------------------login Reuseables----------------------
+
+
+<View style={{justifyContent: 'center', alignItems: 'center'}}>
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+          }}>
+          <Text style={styles.sectionDescription}> UserName </Text>
+          <TextInput
+            style={styles.input}
+            onChangeText={setUsername}
+            value={username}></TextInput>
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}>
+          <Text style={styles.sectionDescription}> Password </Text>
+          <TextInput
+            style={styles.input}
+            onChangeText={setPassword}
+            value={password}></TextInput>
+        </View>
+        <View
+          style={{
+            marginTop: 10,
+          }}>
+          <Button title="Login" onPress={() => onLogin()}></Button>
+        </View>
+      </View>
